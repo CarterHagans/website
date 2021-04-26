@@ -1,0 +1,72 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    background-color: rgb(68, 66, 66);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+background-color: rgb(255, 255, 255);
+overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #000000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+#homeheader{
+    color: white;
+    text-align: center;
+    animation: homeAnimation 2s ease-in;
+    transform-origin: center bottom;
+    font-size: 2.5em;
+}
+
+#homedesc{
+    color: rgb(166, 212, 255);
+    text-align: center;
+    font-size: 1.5em;
+}
+#directtoprojects{
+    border: 3px solid rgb(255, 193, 77);
+    background-color: white;
+    font-weight: bolder;
+    width: 250px;
+    height:50px;
+    cursor: pointer;
+}
+
+#directtoprojects:hover{
+    border: 3px solid white;
+    background-color: rgb(255, 193, 77);
+    color: white;
+}
+
+
+
+@keyframes homeAnimation{
+    from {
+        opacity: 0;
+        transform: scale3d(.75, .75, 1);
+        color: white;
+    }
+    to {
+        opacity: 1;
+        transform: scale3d(1,1,1);
+        color: white;
+    }
+}
