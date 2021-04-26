@@ -1,6 +1,6 @@
 from flask import Flask, render_template, url_for
 from flask_sqlalchemy import SQLAlchemy
-from flask import request,flash
+from flask import request,flash,redirect
 from appcredientals import EMAIL,PASSWORD,RECEIVER,KEY
 import smtplib,ssl
 
@@ -20,6 +20,11 @@ def home():
 def experience():
     return render_template('experience.html')
 
+@app.route('/contact/sent')
+def contact_msg_sent():
+    return render_template("msgsent.html")
+
+
 @app.route('/contact' ,methods=["post","get"])
 def contact():
     if request.method == "POST":
@@ -31,7 +36,7 @@ def contact():
         with smtplib.SMTP_SSL("smtp.gmail.com",port,context=context) as server:
             server.login(EMAIL,PASSWORD)
             server.sendmail(EMAIL,RECEIVER,msg_to_send)
-        # ADD REDIRECT TO CONFIRMED SENT MAIL
+        return redirect("/contact/sent")
     return render_template("contact.html")
 
 @app.route("/about")

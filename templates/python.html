@@ -1,9 +1,75 @@
 {% extends 'base.html' %}
 
 {% block head %}
-<title>Home Page</title>
+<title>Carter Hagans - Python Experience</title>
 {% endblock %}
 
 {% block body %}
+<h1 id="pythonheader">Python Experience</h1>
+<p id="pythonexperience">I started writing in Python 
+    in March 2020. As you will be able to see below,
+    I have experience with various different modules
+    including discord.py, pygame, selenium, tkinter, openCV, JSON
+    and flask. I also have experience in things such as
+    object oriented programming, creating custom 
+    python modules. I also have experience with working
+    with databases in Python. As you continue through
+    this site, you will be able to see experience that 
+    I have of everything that is listed above. Scroll
+    down to get started!
+    <br><br> Note: To access GitHub repositories, you can click
+    on the name of the projects.
+</p>
+<h2 id="discordpy">Discord.py</h2>
+<p id="discordpyexperience">Discord.py was one of the first
+    Python modules I ever used. The main reason I got into
+    Python is because I wanted to make a discord bot. Ever since
+    March 2020, I continued to learn more and more about discord.py
+    and how it worked. Below, you can find some of the bots I have worked on
+    as well as the GitHub repositories for them.
+</p>
+<img id="discordpylogo" src="{{ url_for('static',filename='Images/discordpy.png') }}"/>
+<a href="https://github.com/CarterHagans/supportbot">
+<h3 id="bot1">Support Bot</h3>
+</a>
+<p id="bot1desc">This bot is to help servers with managing their support
+    provided to their members. With this bot, you are able to create and 
+    manage tickets. The features of ticket management include "react to open a ticket" message
+    renaming the ticket, and closing the ticket. Although this is a simple ticket, 
+    it allows for the easiest communication between a staff team and the members
+    of a community. If you would like more information on this bot, feel free
+    to ask!
+</p>
+<a href="https://github.com/CarterHagans/moderationbot">
+<h3 id="bot2">Moderation Bot</h3>
 
+</a>
+<p id="bot2desc">This is a discord moderation bot. The bot has a numerous 
+    amount of commands that can allow the staff team of a discord server to 
+    efficiently take actions on a member if needed. Some of the commands, not all
+    of them are the following: ban,kick,mute,tempmute,etc. This moderation bot
+    does not come with the JSON file, although with bots with the JSON file, it has
+    the ability to store warnings whereas the one without a JSON file does not. 
+    If you would like more information on this bot, feel free to ask!
+</p>
+<p id="discordpyending">Although that there are only 2 bots listed, you are able
+    to request a custom bot with whatever features you would like. If you would 
+    like one of these bots with custom features, feel free to reach out!
+</p>
+<h2 id="pygame">Pygame</h2>
+<img id="pygamelogo" src="{{ url_for('static',filename='Images/pygame.png') }}"/>
+<p id="pygame_experience">I have only made one decently sized game in Pygame<
+    which will be shown below. Pygame is still a relatively new module to me, starting
+in March 2021. If you would like more specific information on my experience with pygame,
+please feel free to reach out.</p>
+<a href="https://github.com/CarterHagans/space-game">
+<h3 id="game1">Spaceship Fight</h3>
+</a>
+<p id="game1desc">This game is where there are two spaceships and a border in the middle.
+    The goal is to defeat the other spaceship by shooting it and not running out of health.
+    There are powerups, such as +1 health, bombs, and shields. There are limited amounts of
+    shields, and you can only shoot a certain number of bullets at a time. This game has console
+    controller compatibility as well. If you would like more details on this game, feel free
+    to let me know!
+</p>
 {% endblock %}
