@@ -1,9 +1,22 @@
 {% extends 'base.html' %}
 
 {% block head %}
-<title>Home Page</title>
+<title>Carter Hagans - Contact</title>
 {% endblock %}
 
 {% block body %}
+<body id="contactbody">
+<h1 id="contactheader">Contact me!</h1>
+<p id="contactdesc">Hello, thank you for spending time on my website!
+    In order to contact me, please fill out the form below. After you
+    fill out the form, an email will be sent to me and I will get back
+    to you as soon as I can. 
+</p>
+<form action="" method="post" id="contactform">
+    <input type="email" name="email" required placeholder="Your email here: " id="emailbox">
+    <textarea type="text" required placeholder="Your message: " id="msgbox" name="message"></textarea>
+    <input type="submit" id="contactformsubmitbutton">
+</form>
 
+</body>
 {% endblock %}

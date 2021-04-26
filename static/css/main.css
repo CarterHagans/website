@@ -132,6 +132,68 @@ color: black;
     color:rgb(154, 255, 171);
 }
 
+#contactheader{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+#contactheader:hover{
+    color: rgb(154, 255, 171);
+}
+#contactdesc{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+#contactdesc:hover{
+    color: rgb(154, 255, 171);
+}
+
+#contactform{
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+#emailbox{
+    position: relative;
+    top: -200px;
+    left: 170px;
+    width: 300px;
+    height: 50px;
+    font-weight: bolder;
+    color: #ff867d;
+    font-size: medium;
+}
+#msgbox{
+    position: relative;
+    top: 00px;
+    left: -140px;
+    width: 300px;
+    height: 150px;
+    font-weight: bolder;
+    color: #ff867d;
+    font-size: medium;
+    resize: none;   
+}
+
+#contactformsubmitbutton{
+    width: 250px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: medium;
+    color: black;
+    background-color: rgb(154, 255, 171);
+    border: 3px solid rgb(154, 255, 171);
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: -425px;
+}
+#contactbody{
+    overflow-x: hidden;
+}
+
 @keyframes homeAnimation{
     from {
         opacity: 0;
