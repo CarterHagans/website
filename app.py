@@ -23,5 +23,18 @@ def contact():
 def about():
     return render_template("about.html")
 
+@app.route("/experience/python")
+def python():
+    return render_template("python.html")
+
+@app.route("/experience/JavaScript")
+def JavaScript():
+    return render_template("JavaScript.html")
+
+@app.route("/experience/Lua")
+def Lua():
+    return render_template("lua.html")
+
+
 if __name__ == '__main__':
     app.run(debug=True)

@@ -48,15 +48,89 @@ color: black;
     width: 250px;
     height:50px;
     cursor: pointer;
+    transition: transform .2s;
+    position: relative;
+    left: 500px;
 }
 
 #directtoprojects:hover{
     border: 3px solid white;
     background-color: rgb(255, 193, 77);
     color: white;
+    transform: scale(1.3)
 }
 
+#pythonbutton{
+    border: 3px solid #3776ab;
+    background-color: #3776ab;
+    color:  RGB(255,211,67);
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    transition: transform .2s;
+    font-weight: bolder;
+}
 
+#pythonbutton:hover{
+    color: #3776ab;
+    border: 3px solid RGB(255,211,67);
+    background-color: RGB(255,211,67);
+    transform: scale(1.3)
+}
+
+#JSbutton{
+    border: 3px solid #F0DB4F;
+    background-color: #F0DB4F;
+    color: #323330;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    left: 245px;
+    top: 150px;
+    transition: transform .2s;
+    font-weight: bolder;
+}
+#JSbutton:hover{
+    color: #F0DB4F;
+    border: 3px solid #323330;
+    background-color: #323330;
+    transform: scale(1.3)
+}
+#luabutton{
+    border: 3px solid white;
+    background-color: white;
+    color: #ff867d;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    top: 250px;
+    transition: transform .2s;
+    font-weight: bolder;
+}
+
+#luabutton:hover{
+    color: white;
+    border: 3px solid #ff867d;
+    background-color: #ff867d;
+    transform: scale(1.3)
+}
+
+#Experienceinfo{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+#Experienceinfo:hover{
+    color:rgb(154, 255, 171);
+}
 
 @keyframes homeAnimation{
     from {
