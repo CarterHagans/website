@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Carter Hagans - Admin Panel</title>
+{% endblock %}
+
+{% block body %}
+<h2 id="panelHead">Manage a project: </h2>
+<form action="" method="POST" id="panelform">
+    <input name="projectID" placeholder="Project id: ">
+    <button type="submit">Submit</button>
+</form>
+
+
+{% for coderequest in coderequests %}
+<table id="adminpaneltabel">
+    <td>ID: </td>
+    <td>{{ coderequest.id }} </td>
+    <td> Email: {{ coderequest.email }}</td>
+    <br>
+    <td> Language: {{ coderequest.language }}</td>
+    <td> Request: {{ coderequest.RequestedCode }}</td>
+    <td> Date: {{ coderequest.date_created }}
+    </td>
+    <td> Status: {{coderequest.status }}</td>
+</table>
+{% endfor %}
+
+
+
+
+{% endblock %}

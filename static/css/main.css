@@ -366,12 +366,294 @@ color: black;
     position: relative;
     top: -270px;
 }
+#selenium{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    top: -270px;
+}
+#seleniumlogo{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    top: -355px;
+    left: 410px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+#seleniumlogo:hover{
+    transform: scale(1.3);
+    border: 2px solid #349945;
+}
 
+#seleniumexperience{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    position: relative;
+    top: -370px;
+}
+#tkinter{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    top: -370px;
+}
+#tkinterlogo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -485px;
+    left: 410px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+#tkinterlogo:hover{
+    transform: scale(1.3);
 
+}
 
+#tkinterexperience{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    position: relative;
+    top: -470px;
+}
 
+#tkinter1{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    top: -470px;
+}
 
+#tkinter1desc{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    position: relative;
+    top: -470px;
+}
 
+#tkinter2{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    top: -470px;
+}
+
+#tkinter2desc{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+    position: relative;
+    top: -470px;
+}
+
+#fridgepreview{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -455px;
+    left: 380px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+#openCV{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    top: -470px;
+}
+#purchaseHeader{
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+}
+#purchaseDescription{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+
+}
+#nextPage{
+    width: 250px;
+    border: 3px solid #ff867d;
+    background-color: #ff867d;
+    cursor: pointer;
+    transition: transform .2s;
+    height: 50px;
+    font-size: medium;
+    font-weight: bolder;
+    position: relative;
+    left: 510px;
+}
+
+#nextPage:hover{
+    background-color: white;
+    border: 3px solid white;
+    color: #ff867d;
+    transform: scale(1.3);
+}
+
+#request{
+    position: relative;
+    left: -130px;
+    top: 210px;
+    width: 310px;
+    height: 200px;
+    font-weight: bolder;
+    font-size: medium;
+}
+#requestemail{
+    position: relative;
+    left: 500px;
+    top: -150px;
+    width: 300px;
+    height: 50px;
+    font-weight: bolder;
+    color: #ff867d;
+    font-size: medium;
+}
+
+#requestlanguage{
+    position: relative;
+    left: 186px;
+    top: -50px;
+    width: 310px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+#purchaseformsubmit{
+    width: 200px;
+    height: 50px;
+    border: 3px solid rgb(104, 255, 142);
+    color:rgb(68, 66, 66);
+    background-color: rgb(104, 255, 142);
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+    position: relative;
+    top: 260px;
+    left: -385px;
+    transition: transform .2s;
+}
+
+#purchaseformsubmit:hover{
+    transform: scale(1.3);
+}
+
+#adminheader{
+    color: #ff867d;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-align: center; 
+}
+#admindesc{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center;
+}
+#adminpassinput{
+    width: 250px;
+    height: 50px;
+    font-size: medium;
+    font-weight: bolder;
+    position: relative;
+    left: 525px;
+}
+#adminloginbttn{
+    width: 250px;
+    height: 50px;
+    font-size: medium;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #ff867d;
+    border: 3px solid #ff867d;
+    position: relative;
+    top: 80px;
+    left: 265px;
+}
+
+#adminpaneltabel{
+    background-color: white;
+    position: relative;
+    top: 25px;
+    
+}
+
+#panelHead{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#panelform{
+    position: relative;
+    left: 500px;
+}
+
+#requestDetailsHead{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+#requestDetailsDesc{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+#deleteRequestBtn{
+    background-color: #ff867d;
+    border: 3px solid #ff867d;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    position: relative;
+    left: 200px;
+}
+#changeStatusRequestBtn{
+    background-color: #ffe815;
+    border: 3px solid #ffe815;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    position: relative;
+    left: 250px;
+}
+
+#contactRequestCreator{
+    background-color: rgb(154, 255, 171);
+    border: 3px solid rgb(154, 255, 171);
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: large;
+    position: relative;
+    left: 300px;
+}
 
 
 

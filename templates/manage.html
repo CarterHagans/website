@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Carter Hagans - Manage code request</title>
+{% endblock %}
+
+{% block body %}
+<h1 id="requestDetailsHead">Code Request details: </h1>
+<h1 id="requestDetailsDesc">ID: {{ identification }}</h1>
+<h1 id="requestDetailsDesc">Email: {{ email }}</h1>
+<h1 id="requestDetailsDesc">Language: {{ language }}</h1>
+<h1 id="requestDetailsDesc">Requested Code: {{ codeRequest }}</h1>
+<h1 id="requestDetailsDesc">Date: {{ date }}</h1>
+<form action=""method="POST">
+    <button type="submit" name="deletebtn" id="deleteRequestBtn" value="Delete">Delete</button>
+    <button id="changeStatusRequestBtn" name="statusbtn" value="Change Status">Change Status</button>
+    <button id="contactRequestCreator">Contact Requester</button>
+</form>
+
+{% endblock %}

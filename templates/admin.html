@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Carter Hagans - Admin</title>
+{% endblock %}
+
+{% block body %}
+<h1 id="adminheader">Admin</h1>
+<h2 id="admindesc">Please enter the admin password: </h2>
+<form action="" method="post">
+    <input type="password" name="enteredadminpassword" placeholder="Enter admin password here: " id="adminpassinput">
+    <button type="submit" id="adminloginbttn">Login</button>
+</form>
+
+
+{% endblock %}
